@@ -21,4 +21,9 @@ multi-line
 comment
 """
 # error catching
-    
+
+# variables
+spam = 40
+print(spam+20)
+greg = 'hello'
+print(greg)
