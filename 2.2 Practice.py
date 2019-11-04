@@ -21,6 +21,6 @@ print(302 % 2)
 print(50*2)
 print(12**2)
 spam = 40
-print("spam")
+print(spam)
 
 
