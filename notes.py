@@ -55,7 +55,6 @@ print(5-3)
 print(3*4)
 print(10/6)
 print("")
-# Semi-advanced Math
 print(1**3)
 print(3**1)
 print(4//3)
@@ -68,7 +67,10 @@ print(79 % 10)
 small = 12
 medium = 15
 large = 20
+print(small)
 print()
+
+# Semi-advanced Math
 print("code tracing")
 small = large - medium
 large = large % small
@@ -76,24 +78,14 @@ medium = large - small
 print(small)
 print(medium)
 print(large)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print()
+print("Comparison")
+# Comparison
+print(8 < 4)
+print(8 > 4)
+print(6 <= 4)
+print(6 >= 4)
+print(5 == 5)
+print(7 == 5)
+print(5 != 5)
+print(7 != 5)
