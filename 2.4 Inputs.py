@@ -25,11 +25,11 @@ print(city, ',', state, ',', zip_code)
 print()
 print("A=4, B=3, C=2, D=1, F=0  ")
 class1 = int(input("Enter grade in numerical value shown above for your first class"))
-class2 = int(input("Enter grade in numerical value shown above for your first class"))
-class3 = int(input("Enter grade in numerical value shown above for your first class"))
-class4 = int(input("Enter grade in numerical value shown above for your first class"))
-class5 = int(input("Enter grade in numerical value shown above for your first class"))
-class6 = int(input("Enter grade in numerical value shown above for your first class"))
+class2 = int(input("Enter grade in numerical value shown above for your second class"))
+class3 = int(input("Enter grade in numerical value shown above for your third class"))
+class4 = int(input("Enter grade in numerical value shown above for your fourth class"))
+class5 = int(input("Enter grade in numerical value shown above for your fifth class"))
+class6 = int(input("Enter grade in numerical value shown above for your last class"))
 print("gpa:", (class1+class2+class3+class4+class5+class6)/6)
 # 5
 print()
@@ -69,14 +69,5 @@ b = int(input("Enter value of 'b' in a quadratic equation"))
 c = int(input("Enter value of 'c' in a quadratic equation"))
 d = (b**2)-(4*a*c)
 print("Discriminant= ", (b**2)-(4*a*c))
-print("First solution:"(-b+(d**(1/2)))/2*a)
-print("Second solution:"(-b-(d**(1/2)))/2*a)
-
-
-
-
-
-
-
-
-
+print("First solution:", (-b+(d**(1/2)))/2*a)
+print("Second solution:", (-b-(d**(1/2)))/2*a)
