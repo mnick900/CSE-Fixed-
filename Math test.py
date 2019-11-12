@@ -1,0 +1,7 @@
+a = int(input("Enter value of 'a' in a quadratic equation"))
+b = int(input("Enter value of 'b' in a quadratic equation"))
+c = int(input("Enter value of 'c' in a quadratic equation"))
+d = (b**2)-(4*a*c)
+print("Discriminant= ", (b**2)-(4*a*c))
+print((-b+(d**(1/2)))/2*a)
+print((-b-(d**(1/2)))/2*a)
