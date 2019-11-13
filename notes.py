@@ -90,3 +90,5 @@ print(7 == 5)
 print(5 != 5)
 print(7 != 5)
 
+name = input("Name:")
+print("Welcome to our humble abode {name}")
