@@ -1,4 +1,5 @@
 import math
+"""
 # 1
 First = input("First name:")
 Last = input("Last name:")
@@ -71,3 +72,45 @@ d = (b**2)-(4*a*c)
 print("Discriminant= ", (b**2)-(4*a*c))
 print("First solution:", (-b+(d**(1/2)))/2*a)
 print("Second solution:", (-b-(d**(1/2)))/2*a)
+
+
+print("9" + "12")
+
+print(9 + 12)
+
+print(str("9") + str("12"))
+
+print(int("9") + int("12"))
+
+print(9 + 12)
+
+cost = int(input("cost:"))
+tax = 10
+print(cost+tax)
+
+value = int(input("num:"))
+total = value+14
+print("{}".format(value))
+
+value = int(input("num:"))
+value2 = int(input("val:"))
+total = value + value2
+print("{}".format(value))
+
+
+score1 = int(input("First score"))
+score2 = int(input("Second score"))
+print((score1 + score2)/2)
+"""
+
+q = int(input("How many questions are there?"))
+c = int(input("How many questions were correct?"))
+print((c/q)*100, "%")
+
+
+
+
+
+
+
+

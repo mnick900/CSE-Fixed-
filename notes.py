@@ -1,3 +1,4 @@
+"""
 print("Basic Print Testing")
 # This is a comment
 print("Hello World")
@@ -19,9 +20,11 @@ print(True)
 print(False)
 
 """
+"""
 this is a 
 multi-line
 comment
+"""
 """
 # error catching
 print("")
@@ -90,5 +93,19 @@ print(7 == 5)
 print(5 != 5)
 print(7 != 5)
 
-name = input("Name:")
-print("Welcome to our humble abode {name}")
+# Typecasting
+"""
+value = int(input("enter a number"))
+cost = 12
+print(value + cost)
+
+print("7" + "5")
+print(int("7") + int("5"))
+
+print(str("7") + str("5"))
+
+
+
+
+
+
