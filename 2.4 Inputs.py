@@ -101,14 +101,16 @@ print("{}".format(value))
 score1 = int(input("First score"))
 score2 = int(input("Second score"))
 print((score1 + score2)/2)
-"""
+
 
 q = int(input("How many questions are there?"))
 c = int(input("How many questions were correct?"))
 print((c/q)*100, "%")
-
-
-
+"""
+length = input()
+width = input()
+area = length*width
+print("The area of {} times {} is {}".format(length, area, width))
 
 
 
