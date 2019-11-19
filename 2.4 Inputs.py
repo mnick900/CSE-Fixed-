@@ -1,5 +1,4 @@
 import math
-"""
 # 1
 First = input("First name:")
 Last = input("Last name:")
@@ -73,7 +72,7 @@ print("Discriminant= ", (b**2)-(4*a*c))
 print("First solution:", (-b+(d**(1/2)))/2*a)
 print("Second solution:", (-b-(d**(1/2)))/2*a)
 
-
+"""
 print("9" + "12")
 
 print(9 + 12)
@@ -90,7 +89,7 @@ print(cost+tax)
 
 value = int(input("num:"))
 total = value+14
-print("{}".format(value))
+print("{}{}".format(value, total))
 
 value = int(input("num:"))
 value2 = int(input("val:"))
@@ -106,12 +105,11 @@ print((score1 + score2)/2)
 q = int(input("How many questions are there?"))
 c = int(input("How many questions were correct?"))
 print((c/q)*100, "%")
-"""
 length = input()
 width = input()
 area = length*width
 print("The area of {} times {} is {}".format(length, area, width))
-
+"""
 
 
 
