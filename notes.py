@@ -94,7 +94,7 @@ print(5 != 5)
 print(7 != 5)
 
 # Typecasting
-"""
+
 value = int(input("enter a number"))
 cost = 12
 print(value + cost)
@@ -103,6 +103,34 @@ print("7" + "5")
 print(int("7") + int("5"))
 
 print(str("7") + str("5"))
+"""
+# Rounding with .format
+# Method 1: Storing value in a variable
+value = 12.3456789
+print("Value = {}".format(value))
+print("Value to two decimal places {:.2f}".format(value))
+print("Value to three decimal places {:.3f}".format(value))
+print("Value to ten decimal places {:.10f}".format(value))
+print("Value to ten decimal places {:.0f}".format(value))
+
+# Method 2: Calculating while rounding
+print("The answer is {:.4f}".format(3.141592/6))
+cost = 100
+tax_rate = .0725
+print("You actually owe ${:.2f} for your purchase".format(cost*tax_rate))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
