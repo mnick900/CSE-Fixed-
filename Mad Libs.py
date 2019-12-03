@@ -11,8 +11,7 @@ ML10 = input("Place").upper()
 ML11 = input("Pronoun (him/her)").upper()
 ML12 = input("Object").upper()
 print(""" Our """, ML5, """ to-be thief was on a """, ML10, """ with """, ML3, """ """, ML1, """ and """, ML3, """ brother, still blissfully unaware. 
-""", ML3, """ """, ML1, """
- and brother sat in front of """, ML11, """, and """, ML3, """ brother was having a coughing fit courtesy of his cold. All of the 
+""", ML3, """ """, ML1, """ and brother sat in front of """, ML11, """, and """, ML3, """ brother was having a coughing fit courtesy of his cold. All of the 
 sudden """, ML3, """ brother stopped coughing and fell silent. The """, ML5, """ book thief became worried and went to feel the head of 
 the brother, it was stone cold...
 

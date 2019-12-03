@@ -19,13 +19,10 @@ print("Booleans")
 print(True)
 print(False)
 
-"""
-"""
 this is a 
 multi-line
 comment
-"""
-"""
+
 # error catching
 print("")
 print("Variables")
@@ -103,7 +100,7 @@ print("7" + "5")
 print(int("7") + int("5"))
 
 print(str("7") + str("5"))
-"""
+
 # Rounding with .format
 # Method 1: Storing value in a variable
 value = 12.3456789
@@ -120,20 +117,43 @@ tax_rate = .0725
 print("You actually owe ${:.2f} for your purchase".format(cost*tax_rate))
 
 
+# Escape characters
+
+sent1 = "This actually does exist"
+print(sent1)
+# New Line
+sent1 = "This \nactually \ndoes exist"
+print(sent1)
+# Intent (tab)
+sent1 = "This \tactually \tdoes exist"
+print(sent1)
+
+sent2 = "She said \"yes\" to her mom "
+print(sent2)
+
+sent3 = 'Jack\'s dog'
+print(sent3)
+
+sent4 = "Jill's dog"
+print(sent4)
+
+sent5 = 'my "dog"'
+print(sent4)
+"""
+print("This \t is \t my \t string.")
+
+print("This \n is \n SPARTA.")
+
+print("Sally said \"no\" about the jacket.")
+print("Sally said \"no\" about the jacket.")
+
+print('This is Sally\'s jacket.')
+print('This is Sally\'s jacket.')
+
+print("I used years \\ months")
+print(1/2)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+perimeter = 30
+print("We need", perimeter, "feet of fencing for the yard,")
 
