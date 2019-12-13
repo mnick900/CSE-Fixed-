@@ -139,7 +139,7 @@ print(sent4)
 
 sent5 = 'my "dog"'
 print(sent4)
-"""
+
 print("This \t is \t my \t string.")
 
 print("This \n is \n SPARTA.")
@@ -156,4 +156,9 @@ print(1/2)
 
 perimeter = 30
 print("We need", perimeter, "feet of fencing for the yard,")
+"""
+t = 5
+r = 5
 
+t = float(input("input a number"))
+print(t)
