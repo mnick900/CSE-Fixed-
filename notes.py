@@ -156,9 +156,10 @@ print(1/2)
 
 perimeter = 30
 print("We need", perimeter, "feet of fencing for the yard,")
-"""
+
 t = 5
 r = 5
 
 t = float(input("input a number"))
 print(t)
+"""

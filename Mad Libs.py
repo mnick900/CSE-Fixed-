@@ -1,3 +1,4 @@
+# coding=utf-8
 ML1 = input("Type of family member").upper()
 ML2 = input("Age").upper()
 ML3 = input("Pronoun (his/her)").upper()
@@ -25,6 +26,3 @@ a """, ML2, """-year-old """, ML4, """ in town had probably spent the last few "
 looking for. “I promise you,” he will say to his boss, “I have no idea what happened to it. I’ve looked
 everywhere. Everywhere!” I’m sure he would never have suspected the """, ML5, """ thief, and yet, there it was—a """, ML6, """ book
 with """, ML6, """ words written against the """, ML8, """ of """, ML3, """ clothes.""")
-
-print("""the quick brown fox chased after the lazy dog the quick brown fox chased after the lazy dog, the quick brown for chased after the lazy dog, the quick fox jumped over the lazy brown dog \nthe quick brown fox jumped over the lazy brown dog, the quick brown fox jumped over the lazy brown dog
-""")
