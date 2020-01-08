@@ -1,4 +1,5 @@
 import math
+"""
 # 1
 First = input("First name:")
 Last = input("Last name:")
@@ -72,7 +73,7 @@ print("Discriminant= ", (b**2)-(4*a*c))
 print("First solution:", (-b+(d**(1/2)))/2*a)
 print("Second solution:", (-b-(d**(1/2)))/2*a)
 
-"""
+
 print("9" + "12")
 
 print(9 + 12)
@@ -110,7 +111,10 @@ width = input()
 area = length*width
 print("The area of {} times {} is {}".format(length, area, width))
 """
-
+length = "hi"
+print("""this {} is
+a multi-line
+print""".format(length))
 
 
 
