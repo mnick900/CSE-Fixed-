@@ -6,7 +6,7 @@ ML5 = str(input("Adjective").upper())
 ML6 = str(input("Color").upper())
 ML7 = str(input("Unit of time (plural)").upper())
 ML8 = str(input("Part of a house").upper())
-ML9 = str(input("Temperature descriptor").upper())
+ML9 = str(input("Hot/Cold").upper())
 ML10 = str(input("Place").upper())
 ML12 = str(input("Object").upper())
 
@@ -26,6 +26,9 @@ a {}-year-old {} in town had probably spent the last few {}
 looking for. “I promise you,” he will say to his boss, “I have no idea what happened to it. I’ve looked
 everywhere. Everywhere!” I’m sure he would never have suspected the {} thief, and yet, there it was—a 
 {} book with {} words written against the {} of her
-clothes.''' .format(ML2, ML10, ML1, ML1, ML5, ML5, ML6, ML10, ML9, ML1, ML1, ML6, ML1, ML10, ML12, ML6, ML2, ML4, ML7,
+clothes.''' .format(ML5, ML10, ML1, ML1, ML5, ML5, ML6, ML10, ML4, ML9, ML6, ML1, ML1, ML10, ML12, ML6, ML2, ML4, ML7,
                     ML5,
                     ML6, ML6, ML8,))
+
+
+
