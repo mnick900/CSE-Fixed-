@@ -27,8 +27,4 @@ looking for. “I promise you,” he will say to his boss, “I have no idea wha
 everywhere. Everywhere!” I’m sure he would never have suspected the {} thief, and yet, there it was—a 
 {} book with {} words written against the {} of her
 clothes.''' .format(ML5, ML10, ML1, ML1, ML5, ML5, ML6, ML10, ML4, ML9, ML6, ML1, ML1, ML10, ML12, ML6, ML2, ML4, ML7,
-                    ML5,
-                    ML6, ML6, ML8,))
-
-
-
+                    ML5, ML6, ML6, ML8,))

@@ -162,4 +162,47 @@ r = 5
 
 t = float(input("input a number"))
 print(t)
+
+
+# Making decisions with if-statements
+grade = int(input("Enter your Grade: "))
+if grade >70:
+    print("Güt job")
+
+grade = int(input("Enter your Grade: "))
+if grade >=70:
+    print("Das ist versha Güt")
+else:
+    print("Das ist nicht Güt")
+
+grade = int(input("Enter your Grade: "))
+if grade >=70:
+    print("Das ist Güt")
+elif grade >= 80:
+    print("Das ist Güt")
+elif grade >= 90:
+    print("Das ist Güt")
+else:
+    print("Das ist nicht Güt")
 """
+number = int(input("Please enter an integer"))
+if number <=50:
+    print("Low")
+if number >=50 and number <100:
+    print("Middle")
+if number >=100:
+    print("High")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
