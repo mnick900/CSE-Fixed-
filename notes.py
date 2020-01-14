@@ -184,7 +184,7 @@ elif grade >= 90:
     print("Das ist Güt")
 else:
     print("Das ist nicht Güt")
-"""
+
 number = int(input("Please enter an integer"))
 if number <=50:
     print("Low")
@@ -192,7 +192,7 @@ if number >=50 and number <100:
     print("Middle")
 if number >=100:
     print("High")
-
+"""
 
 
 
