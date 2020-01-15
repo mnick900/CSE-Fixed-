@@ -17,7 +17,7 @@ if entered == pas:
     print("Welcome")
 else:
     print("Sorry, that is the wrong password")
-"""
+
 x = 0
 age = int(input("What is your age?"))
 if age >= 16:
@@ -27,11 +27,14 @@ elif 16 > age > 0:
 else:
     x = "Enter a valid age"
 print(x)
-
-
-
-
-
+"""
+scale = input("Press C for Celsius or F for Fahrenheit")
+temp = int(input("What is the temperature?"))
+if scale == "f" or scale == "F":
+    temp *= (temp-32)*5/9
+elif scale == "c" or scale == "C":
+    temp *= (temp * 9 / 5) + 32
+print(temp)
 
 
 
