@@ -8,7 +8,7 @@ if state == "Ca" or state == 'CA' or state == 'ca' or state == 'cA' or state == 
     tax = 1.08
     cost *= tax
     print("The total cost is ${:.2f}".format(cost))
-"""
+
 print("The password for the user person1 is 090909")
 user = input()
 pas = "090909"
@@ -17,8 +17,16 @@ if entered == pas:
     print("Welcome")
 else:
     print("Sorry, that is the wrong password")
-
-
+"""
+x = 0
+age = int(input("What is your age?"))
+if age >= 16:
+    x = "You are able to drive"
+elif 16 > age > 0:
+    x = "You are not able to drive"
+else:
+    x = "Enter a valid age"
+print(x)
 
 
 
