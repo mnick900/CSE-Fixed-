@@ -35,7 +35,7 @@ if scale == "f" or scale == "F":
 elif scale == "c" or scale == "C":
     temp = (temp * 9 / 5) + 32
 print(temp)
-"""
+
 height = int(input("How many inches tall are you?"))
 weight = int(input("What is your weight in pounds?"))
 bmi = int((weight / (height * height)) * 703)
@@ -45,22 +45,34 @@ elif 0 < bmi < 18.5:
     print("You are at an underweight BMI")
 elif 25 < bmi:
     print("You are at an overweight BMI")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+month = int(input("Enter the number of your month:"))
+rmonth = "January"
+if month == 1:
+    rmonth = "January"
+elif month == 2:
+    rmonth = "February"
+elif month == 3:
+    rmonth = "March"
+elif month == 4:
+    rmonth = "April"
+elif month == 5:
+    rmonth = "May"
+elif month == 6:
+    rmonth = "June"
+elif month == 7:
+    rmonth = "July"
+elif month == 8:
+    rmonth = "August"
+elif month == 9:
+    rmonth = "September"
+elif month == 10:
+    rmonth = "October"
+elif month == 11:
+    rmonth = "November"
+elif month == 12:
+    rmonth = "December"
+print("The month is {}".format(rmonth))
 
 
 
