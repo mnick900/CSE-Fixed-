@@ -45,7 +45,7 @@ elif 0 < bmi < 18.5:
     print("You are at an underweight BMI")
 elif 25 < bmi:
     print("You are at an overweight BMI")
-"""
+
 month = int(input("Enter the number of your month:"))
 rmonth = "January"
 if month == 1:
@@ -73,11 +73,18 @@ elif month == 11:
 elif month == 12:
     rmonth = "December"
 print("The month is {}".format(rmonth))
-
-
-
-
-
+"""
+num1 = int(input("Enter a number"))
+num2 = int(input("Enter a number"))
+num3 = int(input("Enter a number"))
+if num1 == num2 or num2 == num3 or num3 == num1:
+    print("You entered identical numbers")
+elif num1 > num2 and num1 > num3:
+    print("The largest number is ", num1, "")
+elif num3 > num1 and num3 > num2:
+    print("The largest number is ", num3, "")
+elif num2 > num1 and num2 > num3:
+    print("The largest number is ", num3, "")
 
 
 
