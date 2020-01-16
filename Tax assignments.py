@@ -27,19 +27,24 @@ elif 16 > age > 0:
 else:
     x = "Enter a valid age"
 print(x)
-"""
+
 scale = input("Press C for Celsius or F for Fahrenheit")
 temp = int(input("What is the temperature?"))
 if scale == "f" or scale == "F":
-    temp *= (temp-32)*5/9
+    temp = (temp-32)*5/9
 elif scale == "c" or scale == "C":
-    temp *= (temp * 9 / 5) + 32
+    temp = (temp * 9 / 5) + 32
 print(temp)
-
-
-
-
-
+"""
+height = int(input("How many inches tall are you?"))
+weight = int(input("What is your weight in pounds?"))
+bmi = int((weight / (height * height)) * 703)
+if 18.5 <= bmi <= 25:
+    print("You are at an ideal BMI")
+elif 0 < bmi < 18.5:
+    print("You are at an underweight BMI")
+elif 25 < bmi:
+    print("You are at an overweight BMI")
 
 
 
