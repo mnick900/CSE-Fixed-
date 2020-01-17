@@ -73,7 +73,7 @@ elif month == 11:
 elif month == 12:
     rmonth = "December"
 print("The month is {}".format(rmonth))
-"""
+
 num1 = int(input("Enter a number"))
 num2 = int(input("Enter a number"))
 num3 = int(input("Enter a number"))
@@ -85,23 +85,38 @@ elif num3 > num1 and num3 > num2:
     print("The largest number is ", num3, "")
 elif num2 > num1 and num2 > num3:
     print("The largest number is ", num3, "")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+q = int(input("How many questions were there?"))
+c = int(input("How many questions were answered correct?"))
+g = ((c / q)*100)
+p = "A"
+if 0 <= g <= 59.99:
+    p = "F"
+elif 60 <= g <= 62.99:
+    p = "D-"
+elif 63 <= g <= 67.99:
+    p = "D"
+elif 68 <= g <= 69.99:
+    p = "D+"
+elif 70 <= g <= 72.99:
+    p = "C-"
+elif 73 <= g <= 77.99:
+    p = "C"
+elif 78 <= g <= 79.99:
+    p = "C+"
+elif 80 <= g <= 82.99:
+    p = "B-"
+elif 83 <= g <= 87.99:
+    p = "B"
+elif 88 <= g <= 89.99:
+    p = "B+"
+elif 90 <= g <= 92.99:
+    p = "A-"
+elif 93 <= g <= 97.99:
+    p = "A"
+elif 98 <= g <= 100:
+    p = "A+"
+print("You got a grade of {:.2f}, which is a {}".format(g, p))
 
 
 
