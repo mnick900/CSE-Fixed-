@@ -85,7 +85,7 @@ elif num3 > num1 and num3 > num2:
     print("The largest number is ", num3, "")
 elif num2 > num1 and num2 > num3:
     print("The largest number is ", num3, "")
-"""
+
 q = int(input("How many questions were there?"))
 c = int(input("How many questions were answered correct?"))
 g = ((c / q)*100)
@@ -117,6 +117,7 @@ elif 93 <= g <= 97.99:
 elif 98 <= g <= 100:
     p = "A+"
 print("You got a grade of {:.2f}, which is a {}".format(g, p))
+"""
 
 
 
