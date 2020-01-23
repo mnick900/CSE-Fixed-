@@ -21,19 +21,20 @@ if s1+s2 > s3 and s2 + s3 > s1 and s1 + s3 > s2:
         hyp = s1
         l1 = s2
         l2 = s3
-    else:
-        print("There is no definitive hypotenuse")
     if hyp * hyp == l1*l1 + l2*l2:
         print("This is an right triangle")
     elif hyp * hyp > l1 * l1 + l2 * l2:
         print("This is an obtuse triangle")
     elif hyp * hyp < l1 * l1 + l2 * l2:
         print("This is an acute triangle")
+    if s1 == s2 and s2 == s3:
+        print("This is a equilateral triangle")
+    elif s1 == s2 or s2 == s3 or s3 == s1:
+        print("This is an isosceles triangle")
+    else:
+        print("This is a scalene triangle")
 else:
     print("Those sides do not make a valid triangle.")
-
-
-
 
 
 
