@@ -192,17 +192,118 @@ if number >=50 and number <100:
     print("Middle")
 if number >=100:
     print("High")
+
+
+# For loops
+
+for i in range(3):
+    print("hello")
+
+
+for j in range(0,5):
+    print("yes")
+
+for value in range(2, 7):
+    print("NO")
+
+for i in range(10):
+    print(i)
+
+for i in range(2,6):
+    print(i)
+
+for i in range(0,7):
+    print(i+10)
+
+for i in range(0,7):
+    print(i+10)
+
+
+for i in range(2,7):
+    print(i)
+    print(i*2)
+    print(i+3)
+
+for i in range(0, 10, 2):
+    print(i)
+
+for i in range(7,15,3):
+    print(i)
+
+for i in range(1,11,2):
+    print(i)
+
+for i in range(5,25,4):
+    print(i)
+
+
+for i in range(1, 600):
+    print("Black")
+
+
+# ADVANCED FOR LOOPS
+
+count = 0
+for i in range(100):
+    count = count+i
+print(count)
+
+# Factorial
+
+total = 1
+for i in range(1, 101):
+    total = total*i
+print(total)
+
+# multiples
+
+for i in range(100):
+    if i %2 == 0:
+        print(i)
+
+for i in range(100):
+    if i %3 == 0:
+        print(i)
+
+
+for i in range(1500, 1800):
+    if i % 5 == 0:
+        print(i)
+        counter = counter+1
+print("There are", counter, "multiples")
+
+counter = 0
+counterER = 0
+counterer = 0
+count = 0
+countereR = 0
+for i in range(100):
+    if i % 2 == 0:
+        print(i, "is divisible by two")
+        counter = counter+1
+    if i % 3 == 0:
+        print(i, "is divisible by three")
+        counterER = counterER + 1
+    if i % 6 == 0:
+        print(i, "is divisible by six")
+        counterer = counterer + 1
+    if i % 4 == 0:
+            print(i, "is divisible by four")
+            count = count + 1
+    if i % 8 == 0:
+        print(i, "is divisible by eight")
+        countereR = countereR + 1
+print("How many are divisible by 2:",counter, "\nHow many are divisible by 6:", counterer,"\nHow many are divisible by 3:", counterER,"\nHow many are divisible by 8:", countereR,"\nHow many are divisible by 4:", count )
 """
-
-
-
-
-
-
-
-
-
-
-
+# fizzbuzz program
+c1 = 0
+c2 = 0
+for i in range(100):
+    if i % 3 == 0 and i % 5 == 0:
+        print("Fizzbuzz")
+    elif i % 3 == 0:
+        print("fizz")
+    elif i % 5 == 0:
+        print("buzz")
 
 
