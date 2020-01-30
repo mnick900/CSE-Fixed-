@@ -294,7 +294,7 @@ for i in range(100):
         print(i, "is divisible by eight")
         countereR = countereR + 1
 print("How many are divisible by 2:",counter, "\nHow many are divisible by 6:", counterer,"\nHow many are divisible by 3:", counterER,"\nHow many are divisible by 8:", countereR,"\nHow many are divisible by 4:", count )
-"""
+
 # fizzbuzz program
 c1 = 0
 c2 = 0
@@ -305,5 +305,80 @@ for i in range(100):
         print("fizz")
     elif i % 5 == 0:
         print("buzz")
+    else:
+        print(i)
+
+# While loops
+
+value = 0
+while value != 10:
+    print("Value is {}".format(value))
+    value = value + 1
+    print("value is now {}".format(value))
+
+valuie = 201
+while value > 0:
+    print("Valuie is {}".format(valuie))
+    valuie = valuie + 245
+    print("valuie is now {}".format(valuie))
+
+myname = input("Enter Name:")
+print(len(myname))
+while len(myname) <= 10:
+    print("invalei")
+    myname = input("Enter Name:")
+
+spotr = input("Sport guess time")
+while spotr != "ßasketball":
+    spotr = input("Sport guess time")
+    if spotr == "soccer":
+        print("Both ballses")
+    elif spotr == "Baseball":
+        print("Bounece")
+    elif spotr == "tennis":
+        print("has contakt")
+    else:
+        print("Nope")
+print("güt")
+"""
+import random
+
+value = random.randint(1,100)
+print(value)
+while value != 34:
+    print(value)
+    value = random.randint(1, 30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
