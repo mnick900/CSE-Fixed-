@@ -340,7 +340,7 @@ while spotr != "ßasketball":
     else:
         print("Nope")
 print("güt")
-"""
+
 import random
 
 value = random.randint(1,100)
@@ -348,7 +348,7 @@ print(value)
 while value != 34:
     print(value)
     value = random.randint(1, 30)
-
+"""
 
 
 
