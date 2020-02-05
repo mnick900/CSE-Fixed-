@@ -7,23 +7,23 @@ if type == "Y":
     low = int(input("What do you want the lower bound to be?"))
     num = random.randint(low, up)
     print(num)
-    guess = int(input("Guess a number from {} - {}").format(low, up))
+    guess = int(input("Guess a number between your ranges"))
     gum = 0
     for i in range(4):
         if guess < num:
             print("Guess higher")
             gum = gum + 1
-            guess = int(input("Guess a number from {} - {}").format(low, up))
+            guess = int(input("Guess a number between your ranges"))
         elif guess > num:
             print("Guess lower")
             gum = gum + 1
-            guess = int(input("Guess a number from {} - {}").format(low, up))
+            guess = int(input("Guess a number between your ranges"))
 if type == "N":
     mode = input("Type EASY if you wish to play easy, or HARD if you wish to play hard")
     while mode != "HARD" and mode != "EASY":
         mode = input("Type EASY if you wish to play easy, or HARD if you wish to play hard")
     if mode == "EASY":
-        num = random.randint(1,10)
+        num = random.randint(1, 10)
         print(num)
         guess = int(input("Guess a number from 1-10"))
         gum = 0
