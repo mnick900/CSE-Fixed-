@@ -1,3 +1,4 @@
+import time
 """
 print("Basic Print Testing")
 # This is a comment
@@ -349,8 +350,6 @@ while value != 34:
     print(value)
     value = random.randint(1, 30)
 """
-
-
 
 
 
